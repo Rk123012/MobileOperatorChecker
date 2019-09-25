@@ -22,6 +22,9 @@ public class CountryAndOperatorCheck {
     }
 
     private String removeDashBraceHyphenSpace(String num){
-        return num.replaceAll("\\D", "");
+        String s1 = num.replaceAll("\\s", "");
+        String s2 = s1.replaceAll("\\(","");
+        String s3 = s2.replaceAll("\\)","");
+        return  s3;
     }
 }
