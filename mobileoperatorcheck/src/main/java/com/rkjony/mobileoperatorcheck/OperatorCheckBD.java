@@ -17,6 +17,6 @@ public class OperatorCheckBD {
             return "Other";
         }
 
-        git remote add origin https://github.com/Rk123012/MobileOperatorChecker.git
+
     }
 }
